@@ -25,7 +25,7 @@ export default function ContactEmail({
   subject,
   message,
 }: ContactEmailProps) {
-  const baseUrl = "https://aafrzl.my.id/"
+  const baseUrl = "https://elxsdk.web.id/"
 
   return (
     <Html>
@@ -38,7 +38,7 @@ export default function ContactEmail({
           <Section style={box}>
             <Column align="center">
               <Link style={headingLink} href={baseUrl}>
-                Coding with Afrizal
+                elxsdk
               </Link>
             </Column>
           </Section>

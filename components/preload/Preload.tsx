@@ -2,7 +2,7 @@ import { cn } from "@/lib/utils"
 import { useRef } from "react"
 import useIsomorphicLayoutEffect from "@/hooks/UseIsomorphicLayoutEffect"
 import gsap from "gsap"
-import { Logo } from "@/components/LogoIcon"
+// import { Logo } from "@/components/LogoIcon"
 
 interface PreloadProps {
   endedLoading: boolean
@@ -35,7 +35,7 @@ export default function Preload({ endedLoading }: PreloadProps) {
       )}
     >
       <div className="stroke">
-        <Logo />
+        <h1 className="text-6xl font-bold mb-4">elxsdk</h1>
         <div className="text-center font-semibold" ref={counterRef}>
           0%
         </div>

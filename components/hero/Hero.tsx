@@ -17,11 +17,11 @@ export default function Hero() {
       <HeroGraphic />
       <HeroText />
       <div className="mt-10 w-full overflow-hidden">
-        <ParallaxText direction={500} baseVelocity={-1}>
-          Frontend Web Developer
+        <ParallaxText direction={500} baseVelocity={1}>
+          IT Support Staff
         </ParallaxText>
-        <ParallaxText direction={-500} baseVelocity={1}>
-          Freelance Web Developer
+        <ParallaxText direction={-500} baseVelocity={-1}>
+          Junior Web Developer
         </ParallaxText>
       </div>
       <motion.div
@@ -34,10 +34,10 @@ export default function Hero() {
           Locate
         </p>
         <p className="text-md font-medium text-zinc-200 dark:text-zinc-600">
-          in Bandung
+          in Semarang
         </p>
         <p className="text-md font-medium text-zinc-200 dark:text-zinc-600">
-          West Java, Indonesia
+          Central Java, Indonesia
         </p>
         <DigitalGlobe className="absolute right-3 top-[10%]" />
       </motion.div>

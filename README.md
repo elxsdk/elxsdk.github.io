@@ -1,12 +1,12 @@
-# Personal Portfolio Website aafrzl.my.id
+# Personal Portfolio Website - elxsdk
 
 ## Description
 
-This is my personal portfolio website. I made this website to showcase my projects and skills. I also made this website to learn more about web development with Slick animation using GSAP and Frammer Motion.
+This is my personal portfolio website showcasing my journey from IT Support to Web Development. Built with Next.js, featuring slick animations using GSAP and Framer Motion, dark mode support, and real-time integrations with GitHub and Spotify APIs.
 
 ## Introduction
 
-Having a personal portfolio website is a must for a developer. It is a place where you can showcase your projects and skills. It is also a place where you can tell people about yourself. This repository is provides to you a template for your personal portfolio website. You can use this template to make your own personal portfolio website. You can also use this template to learn more about web development with Slick animation using GSAP and Frammer Motion. Don't forget to give this repository a star if you find this repository useful.
+A modern, responsive portfolio website highlighting my professional experience as an IT Support professional and my transition into web development. This portfolio demonstrates my technical skills, projects, and certifications while providing an engaging user experience through smooth animations and interactive elements.
 
 ## Features
 
@@ -71,7 +71,7 @@ NEXT_PUBLIC_REFRESH_TOKEN_SPOTIFY="Your Refresh Token Spotify"
 1. Clone the repository
 
 ```sh
-git clone https://github.com/aafrzl/v2.portfolio-aafrzl.my.id.git
+git clone https://github.com/elxsdk/v2.portfolio-aafrzl.my.id.git
 ```
 
 2. Navigate to the repository directory

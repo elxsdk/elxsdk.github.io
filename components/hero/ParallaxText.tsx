@@ -104,6 +104,18 @@ export default function ParallaxText({
         >
           {children}{" "}
         </motion.span>
+        <motion.span
+          style={{ skew: skewVelocityFactor }}
+          className="mr-10 block"
+        >
+          {children}{" "}
+        </motion.span>
+        <motion.span
+          style={{ skew: skewVelocityFactor }}
+          className="mr-10 block"
+        >
+          {children}{" "}
+        </motion.span>
       </motion.div>
     </motion.div>
   )

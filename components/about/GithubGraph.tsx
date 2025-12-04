@@ -42,7 +42,7 @@ export default function GithubGraph() {
       className="flex items-center justify-center rounded-xl bg-zinc-200 p-4 dark:bg-zinc-800"
     >
       <GitHubCalendar
-        username="aafrzl"
+        username="elxsdk"
         labels={{
           totalCount: "{{count}} contributions in the last half year",
         }}

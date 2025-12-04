@@ -1,46 +1,24 @@
 export const projects = [
   {
     id: 1,
-    slug: "project-1",
-    title: "Project 1",
+    slug: "pos-nextjs",
+    title: "Point of Sale (POS) System",
     description:
-      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "A real-time Point of Sale application built with modern web technologies. Features include inventory management, transaction processing, sales reporting, and real-time data synchronization. Developed as part of Full Stack Next.js course from WPU.",
     image: "/images/project-1.png",
-    tech: ["React", "TypeScript", "Next.js", "TailwindCSS"],
-    linkProject: "https://google.com",
-    repo: "https://github.com/aafrzl",
+    tech: ["Next.js", "React", "TypeScript", "PostgreSQL", "Tailwind CSS"],
+    linkProject: "https://github.com/elxsdk",
+    repo: "https://github.com/elxsdk",
   },
   {
     id: 2,
-    slug: "project-2",
-    title: "Project 2",
+    slug: "portfolio-website",
+    title: "Personal Portfolio Website",
     description:
-      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "A modern, responsive portfolio website showcasing my journey from IT Support to Web Development. Built with Next.js, featuring smooth animations using GSAP and Framer Motion, dark mode support, and integration with GitHub and Spotify APIs.",
     image: "/images/project-2.png",
-    tech: ["React", "TypeScript", "Next.js", "TailwindCSS"],
-    linkProject: "https://google.com",
-    repo: "https://github.com/aafrzl",
-  },
-  {
-    id: 3,
-    slug: "project-3",
-    title: "Project 3",
-    description:
-      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    image: "/images/project-3.png",
-    tech: ["React", "TypeScript", "Next.js", "TailwindCSS"],
-    linkProject: "https://google.com",
-    repo: "https://github.com/aafrzl",
-  },
-  {
-    id: 4,
-    slug: "project-4",
-    title: "Project 4",
-    description:
-      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    image: "/images/project-4.png",
-    tech: ["React", "TypeScript", "Next.js", "TailwindCSS"],
-    linkProject: "https://google.com",
-    repo: "https://github.com/aafrzl",
+    tech: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Framer Motion", "GSAP"],
+    linkProject: "https://elxsdk.web.id",
+    repo: "https://github.com/elxsdk",
   },
 ]
