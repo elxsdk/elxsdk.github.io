@@ -71,7 +71,7 @@ export default function ParallaxText({
         transition: {
           delay: 2,
           duration: 1,
-          easings: "eas",
+          ease: "easeInOut",
         },
       }}
       className="m-0 flex flex-nowrap overflow-hidden whitespace-nowrap leading-[0.8] tracking-[-2px]"

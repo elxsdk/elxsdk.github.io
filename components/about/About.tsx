@@ -4,7 +4,7 @@ import AnimateHeading from "./AnimateHeading"
 import AnimateParagraph from "./AnimateParagraph"
 import AnimateTitle from "./AnimateTitle"
 // import DiscordServer from "./DiscordServer"
-import GithubGraph from "./GithubGraph"
+import Certificates from "./Certificates"
 // import SocialMedia from "./SocialMedia"
 // import Spotify from "./Spotify"
 // import TiktokEmbed from "./TiktokEmbed"
@@ -76,7 +76,7 @@ export default function About() {
         </div>
 
         <div className="flex w-full flex-col justify-between gap-4 lg:max-w-[1200px] ">
-          <GithubGraph />
+          <Certificates />
         </div>
       </div>
     </section>

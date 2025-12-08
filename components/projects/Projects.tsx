@@ -16,14 +16,15 @@ export default function Projects() {
             key={index}
             title={project.title}
             description={project.description}
-            image={project.image}
+            images={project.images}
             tech={project.tech}
             repo={project.repo}
             projectLink={project.linkProject}
           />
         ))}
       </div>
-      <ProjectButton />
+      {/* Temporarily hidden - Load More button */}
+      {/* <ProjectButton /> */}
     </section>
   )
 }
